@@ -2,12 +2,12 @@
 ## AWS上に新しくVPCを作成
 ![newVPC](img/lesson04-vpc.png)
 ### サブネット
-![vpc subnet](img/lesson04-vpc-subnet.png)
+![VPCsubnet](img/lesson04-vpc-subnet.png)
 ## EC2とRDSを構築
 ## EC2
 ![newEC2](img/lesson04-ec2.png)
 ### EC2のセキュリティグループ
-![]()
+![EC2security](img/ec2-security.png)
 ## RDS
 ![newRDS](img/lesson04-make-rds.png)
 ### RDSの詳細とセキュリティグループ
