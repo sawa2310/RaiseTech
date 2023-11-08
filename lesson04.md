@@ -15,7 +15,9 @@
 ![newRDS](img/lesson04-make-rds.png)
 ### RDSの詳細とセキュリティグループ
 ![RDS security and detail](img/rds-detail.png)
-![RDS security and detail-2](img/lesson04-rds-security-and-detail.png)
-![]()
+![rds-default-in](img/rds-default-in.png)
+![rds-default-out1](img/rds-default-out.png)
+![rds-rds-ec2-1-in](img/rda-rda-ec2-1-in.png)
+![rds-rds-ec2-1-in2](img/rds-rds-ec2-1-in2.png)
 ## EC2からRDSへの接続をし、正常であることを確認
 ![EC2 connect to RDS](img/lesson04-ec2-to-rds.png)
