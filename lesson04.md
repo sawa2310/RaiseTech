@@ -7,11 +7,13 @@
 ## EC2
 ![newEC2](img/lesson04-ec2.png)
 ### EC2のセキュリティグループ
-![EC2security](img/ec2-security.png)
+![security-rule](img/security04.png)
+![security-rule-2](img/security03-2.png)
 ## RDS
 ![newRDS](img/lesson04-make-rds.png)
 ### RDSの詳細とセキュリティグループ
 ![RDS security and detail](img/rds-detail.png)
 ![RDS security and detail-2](img/lesson04-rds-security-and-detail.png)
+![](img/rds-security01.png)
 ## EC2からRDSへの接続をし、正常であることを確認
 ![EC2 connect to RDS](img/lesson04-ec2-to-rds.png)
