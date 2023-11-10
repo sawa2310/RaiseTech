@@ -20,4 +20,4 @@
 ![]()
 ![]()
 ## EC2からRDSへの接続をし、正常であることを確認
-![EC2 connect to RDS]()
+![EC2 connect to RDS](img/lesson04-ec2-rds-connect.png)
