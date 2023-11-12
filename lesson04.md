@@ -12,7 +12,7 @@
 ![newEC2](img/lesson04-ec2.png)
 
 ### EC2のセキュリティグループ
-![EC2-security](img/lesson04-ec2-security.png)
+![EC2-security](img/lesson04-ec2-security01.png)
 
 ## RDS
 ![newRDS](img/lesson04-newRDS.png)
@@ -26,3 +26,5 @@
 
 ## 学び
 ・ RDSにパブリックのサブネットが接続できると、誰でもRDSを閲覧できてしまうので望ましくない。
+・ セキュリティグループが重複しないようにする
+・ ルールは許可のルールは必要最低限で書くのが基本
