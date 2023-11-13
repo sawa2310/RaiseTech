@@ -12,7 +12,7 @@
 ![newEC2](img/lesson04-ec2.png)
 
 ### EC2のセキュリティグループ
-![EC2-security](img/lesson04-ec2-security01.png)
+![EC2-security](img/lesson04-ec2-security.png)
 
 ## RDS
 ![newRDS](img/lesson04-newRDS.png)
