@@ -16,7 +16,7 @@
 ### セキュリティグループ
 ![launch-wizard_security-in](img\img-lesson04-2\launch-wizard_security-in.png)
 ![launch-wizard_security-out](img\img-lesson04-2\launch-wizard_security-out.png)
-![ec2-rds-1_security](img\img-lesson04-2\ec2-rds-1_security.png)
+![ec2-rds-1_security](img/img-lesson04-2/ec2-rds-1_security.png)
 ![rds-ec2-1_security](img-lesson04-2/rds-ec2-1_security.png)
 
 
