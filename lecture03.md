@@ -1,7 +1,7 @@
 # Lesson03
 
 ・サンプルアプリケーションの起動
-![lesson03-sample app 2023-10-30 144313](img/lesson03-sample.app.png)
+![lesson03-sample app 2023-10-30 144313](img/img-lesson03/lesson03-sample.app.png)
 
 ## APサーバーについて
 アプリケーションサーバーの略称。Webサーバーより受け取った情報を処理するためのモノ。
@@ -9,10 +9,10 @@
 
 ・名前（Puma）
 <br>・バージョン5.6.5
-<br>![lesson03 2023-10-30 123036](img/lesson03.png)
+<br>![lesson03 2023-10-30 123036](img/img-lesson03/lesson03.png)
 
 ・ APサーバーを終了させるとアプリケーションにアクセスできない
-![lesson03-apサーバーを終了](img/lesson03-2.png)
+![lesson03-apサーバーを終了](img/img-lesson03/lesson03-2.png)
 
 ## DBサーバーについて
 DBサーバ（データベースサーバ）とは、データを一元管理し、データの検索、更新、保存、バックアップ を行うサーバのこと。
@@ -21,18 +21,18 @@ DBサーバ（データベースサーバ）とは、データを一元管理し
 
 ・名前（mysql）
 <br>・バージョン8.0.35
-<br>![lesson03-4 2023-10-30 144731](img/lesson03-4.png)
+<br>![lesson03-4 2023-10-30 144731](img/img-lesson03/lesson03-4.png)
 )
 
 ・DBサーバーを停止させるとアプリケーションにアクセスできない
-![lesson03-stopDB 2023-10-30 151703](img/lesson03-stopDB.png)
+![lesson03-stopDB 2023-10-30 151703](img/img-lesson03/lesson03-stopDB.png)
 
 
 ## Railsの構成管理ツール
 
 ・名前（Bundle）
 <br>・バージョン2.3.14
-<br>![lesson03-bundle 2023-10-30 150833](img/lesson03-bundle.png)
+<br>![lesson03-bundle 2023-10-30 150833](img/img-lesson03/lesson03-bundle.png)
 
 ## 今回の課題から学んだこと
 
