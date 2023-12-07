@@ -23,3 +23,14 @@
         $ rbenv rehash
 
     ※複数のバージョンのRubyをインストールしたい場合は、4.⇒5.⇒6.を繰り返す。
+
+## rails
+
+    ・which rails
+
+    ・rails -v
+        railsのバージョンを確認
+
+    ・gem install rails -v 7.0.4
+        railsのバージョンを7.0.4を指定してインストール
+
