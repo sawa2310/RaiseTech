@@ -1,5 +1,16 @@
 # RaiseTech memo
 
+## EC2の初期設定
+
+    ・アップデート
+        sudo yum -y update
+
+    ・環境構築に必要なパッケージをインストール
+        sudo yum  -y install git make gcc-c++ patch libyaml-devel libffi-devel libicu-devel zlib-devel readline-devel libxml2-devel libxslt-devel ImageMagick ImageMagick-devel openssl-devel libcurl libcurl-devel curl
+
+    「-yオプション」とは、yumコマンドのオプションで、「すべての問いにYesで自動的に答える」
+
+
 ## rbenv
 
     ・rbenvとはRubyのバージョンを簡単に切り替えてくれるツール。
@@ -107,3 +118,45 @@
 
 
     参照サイト（https://coding-note.com/volta/）
+
+### Pryとは
+    PryはRubyに標準でついているIRB(Interactive Ruby)をより便利なものにしたもの
+        gem install pry
+
+    参照元（https://tagamidaiki.com/ruby-debugging-gem-pry/）
+
+
+## Bundler
+
+### バージョンの確認
+        
+        $ ruby -v
+        $ gem -v
+        $ bundle -v
+    （rubyをインストールするとgemがインストールされる。gemがインストールインストールされるとbundlerがインストールされる。bundlerはgemによってインストールされる。）
+
+
+    インストール済みのbundlerバージョン一覧
+        $ gem list bundler
+
+    出力結果
+        例1: bundler (default: 2.3.17)
+	        -> 2.3.17がデフォルト
+
+        例2: bundler (default: 2.3.17, default: 2.2.22)
+	        -> 2.3.17 & 2.2.22がデフォルト
+
+        例3: bundler (2.3.17, 2.3.16, default: 2.2.22)
+	        -> 2.2.22がデフォルト
+
+        例4: bundler (default: 2.3.17, 2.3.16, 2.2.22)
+	        -> 2.3.17だけがデフォルト
+
+    インストールできるbundlerバージョン一覧
+        $ gem search ^bundler$ --all
+
+    特定のbundlerバージョンをインストール
+        $ gem install bundler -v 2.3.17
+
+    特定のbundlerバージョンをインストール & defaultに設定
+        $ gem install --default bundler -v 2.2.22
