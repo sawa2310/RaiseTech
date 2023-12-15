@@ -11,6 +11,7 @@
     「-yオプション」とは、yumコマンドのオプションで、「すべての問いにYesで自動的に答える」
 
 
+
 ## rbenv
 
     ・rbenvとはRubyのバージョンを簡単に切り替えてくれるツール。
@@ -64,6 +65,8 @@
 
         rbenv uninstall --all
 
+
+
 ## rails
 
     ・which rails
@@ -73,6 +76,8 @@
 
     ・gem install rails -v 7.0.4
         railsのバージョンを7.0.4を指定してインストール
+
+
 
 ## volta
 
@@ -126,6 +131,7 @@
     参照元（https://tagamidaiki.com/ruby-debugging-gem-pry/）
 
 
+
 ## Bundler
 
 ### バージョンの確認
@@ -163,26 +169,31 @@
 
         参照（https://www.fuwamaki.com/article/373）
 
-bundle install
+    bundle install
 
-|
-|
+
 
 ## mysql2インストール
 
-gem install mysql2:0.5.4
+    gem install mysql2:0.5.4
 
-gem install mysql2:0.5.4 --source 'https://rubygems.org/'
+    gem install mysql2:0.5.4 --source 'https://rubygems.org/'
 
-sudo yum install mysql-devel
-参照元(https://qiita.com/akk_ayy/items/f43a1af5368d1570c6f3)
+    sudo yum install mysql-devel
+    参照元(https://qiita.com/akk_ayy/items/f43a1af5368d1570c6f3)
 
-yum install [オプション] [パッケージ名]
+    yum install [オプション] [パッケージ名]
 
-mysql-devel　（MySQL というデータベースの、開発用（development）のパッケージ
+    mysql-devel　（MySQL というデータベースの、開発用（development）のパッケージ
 
-インストールする対象のパッケージ（＝ファイル群）の名前。
-MySQLモジュールを使うCプログラムをコンパイルするといには、このパッケージが必要。
-gemのインストールの時に、Cプログラムのコンパイルが必要なgemがそこそこある。
+    インストールする対象のパッケージ（＝ファイル群）の名前。
+    MySQLモジュールを使うCプログラムをコンパイルするといには、このパッケージが必要。
+    gemのインストールの時に、Cプログラムのコンパイルが必要なgemがそこそこある。
 
-参照 (https://teratail.com/questions/177710)
+    参照 (https://teratail.com/questions/177710)
+
+
+# VScodeのSSH接続の仕方と拡張機能
+
+    参照(https://qiita.com/829yasubee/items/68aabe197a47202c8688)
+
