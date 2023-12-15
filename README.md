@@ -160,3 +160,29 @@
 
     特定のbundlerバージョンをインストール & defaultに設定
         $ gem install --default bundler -v 2.2.22
+
+        参照（https://www.fuwamaki.com/article/373）
+
+bundle install
+
+|
+|
+
+## mysql2インストール
+
+gem install mysql2:0.5.4
+
+gem install mysql2:0.5.4 --source 'https://rubygems.org/'
+
+sudo yum install mysql-devel
+参照元(https://qiita.com/akk_ayy/items/f43a1af5368d1570c6f3)
+
+yum install [オプション] [パッケージ名]
+
+mysql-devel　（MySQL というデータベースの、開発用（development）のパッケージ
+
+インストールする対象のパッケージ（＝ファイル群）の名前。
+MySQLモジュールを使うCプログラムをコンパイルするといには、このパッケージが必要。
+gemのインストールの時に、Cプログラムのコンパイルが必要なgemがそこそこある。
+
+参照 (https://teratail.com/questions/177710)
