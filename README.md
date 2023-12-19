@@ -192,8 +192,42 @@
 
     参照 (https://teratail.com/questions/177710)
 
+## mariaDB削除・mysqlインストール
+
+    mysqlの状態を確認する
+    sudo systemctl enable mysql
+
+    mariaDB削除・mysqlインストール（※raisetech資料）
+    curl -fsSL https://raw.githubusercontent.com/MasatoshiMizumoto/raisetech_documents/main/aws/scripts/mysql_amazon_linux_2.sh | sh
+
+    mysqlインストール時に一時的なパスワードを表示
+    sudo cat /var/log/mysqld.log | grep "temporary password" | awk '{print $13}'
+
+    mysqlに接続
+    mysql -u root -p
+
+    ユーザー名とパスワードを設定
+    ALTER USER 'root'@'localhost' IDENTIFIED BY '設定するパスワード';
+
+    データベース内のGRANTテーブルから再読み込みを実行するステートメント
+    FLUSH PRIVILEGES;
+
+    /etcは，Linuxディストリビューションを構成する各種プログラムの設定ファイルを格納したディレクトリ
+
+    ls /etc
+    cat /etc/my.cof
+
+    データベースの情報確認コマンド
+    show databases;
+
 
 # VScodeのSSH接続の仕方と拡張機能
 
     参照(https://qiita.com/829yasubee/items/68aabe197a47202c8688)
 
+# その他メモ
+
+    
+    gem uninstall mysql2
+
+    gem install mysql2
