@@ -192,6 +192,10 @@
 
     参照 (https://teratail.com/questions/177710)
 
+    gem uninstall mysql2
+    
+    gem install mysql
+
 ## mariaDB削除・mysqlインストール
 
     mysqlの状態を確認する
@@ -225,9 +229,33 @@
 
     参照(https://qiita.com/829yasubee/items/68aabe197a47202c8688)
 
-# その他メモ
+# Nginx
 
-    
-    gem uninstall mysql2
+## EC2にNginxをインストールする
 
-    gem install mysql2
+    amazon-linux-extrasを使ってインストールできるパッケージの確認
+        $ which amazon-linux-extras
+        $ amazon-linux-extras
+
+    Nginxのインストール
+        $ sudo amazon-linux-extras install nginx1
+        $ nginx -v
+
+    初期設定ファイルのバックアップ
+
+        $ sudo cp -a /etc/nginx/nginx.conf /etc/nginx/nginx.conf.back
+
+## 起動設定
+
+    Nginx起動
+        $ sudo systemctl start nginx
+
+    インスタンス起動時にNginxも自動で起動させる
+        $ sudo systemctl enable nginx
+
+    設定確認
+        $ systemctl status nginx
+
+        $ systemctl is-enabled nginx
+
+    セキュリティグループで80を開放していれば、EC2のパブリックIPでnginxのデフォルト画面が表示される
