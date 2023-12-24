@@ -261,3 +261,26 @@
     セキュリティグループで80を開放していれば、EC2のパブリックIPでnginxのデフォルト画面が表示される
 
     ブラウザで EC2インスタンスのIPv4パブリックIPを入力すると起動確認できる
+
+	nginxを一旦停止
+		$ sudo /etc/init.d/nginx stop
+
+	nginxの設定ファイルを編集
+		$ sudo vi /etc/nginx/nginx.conf
+
+
+
+## unicorn
+	unicornをインストール
+		$ sudo gem install unicorn
+	unicornの設定ファイルを作成
+
+	unicornを起動
+		$ cd [あなたのアプリ名]
+		$ unicorn_rails -c config/unicorn.rb -D
+		$ unicorn_rails -E production -c config/unicorn.rb -D (本番環境で稼働させる場合)
+
+	プロセスを検索して起動確認
+	unicorn masterが動いていればok
+		$ ps ax|grep unicorn|grep -v grep
+
