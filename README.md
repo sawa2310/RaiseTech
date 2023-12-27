@@ -268,6 +268,16 @@
 	nginxの設定ファイルを編集
 		$ sudo vi /etc/nginx/nginx.conf
 
+    Nginxをリスタート
+		$ sudo systemctl restart nginx
+
+	ファイルの所有者を変更する
+		$  sudo chown ec2-user:ec2-user /etc/nginx/nginx.conf
+		このコマンドでファイルの所有者をec2-userユーザーに変更する。
+
+	圧縮ファイルの解凍
+		$ sudo gzip -d ファイル名.gz
+
 
 
 ## unicorn
@@ -283,4 +293,6 @@
 	プロセスを検索して起動確認
 	unicorn masterが動いていればok
 		$ ps ax|grep unicorn|grep -v grep
-
+    
+    unicornの停止
+		$ kill -QUIT 30715  # マスタープロセスのPIDを指定
