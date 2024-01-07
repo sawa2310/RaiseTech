@@ -280,8 +280,9 @@
 
 
 
-## unicorn
-	unicornをインストール
+# unicorn
+
+    unicornをインストール
 		$ sudo gem install unicorn
 	unicornの設定ファイルを作成
 
@@ -295,4 +296,16 @@
 		$ ps ax|grep unicorn|grep -v grep
     
     unicornの停止
-		$ kill -QUIT 30715  # マスタープロセスのPIDを指定
+		$ kill -QUIT 12345  # マスタープロセスのPIDを指定
+
+
+## blockedhostが解消
+
+	unicorn.rbに以下を記述
+		listen = ["localhost"]
+
+	development.rb以下を記述
+		config.hosts = ["unicorn"]
+	必要に応じてdevelopment.rbに以下を記述
+	config.hosts << "0.0.0.0"　（EC2のIPアドレス）
+
