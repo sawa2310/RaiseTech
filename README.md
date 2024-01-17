@@ -361,6 +361,56 @@
 	に書き換えたらCSSとJavaScriptが反映されるようになった。
 	
 
+## ALB
+
+
+	nginx.confに下記を追記
+
+	```
+
+	location = /healthcheck.html {
+    		empty_gif;
+    		break;
+	}
+
+	```
+
+
+	empty_gifとは？
+	nginxの標準モジュールが持つ機能で、nginxがメモリに保持している1x1ピクセルの透過 GIF ファイルをクライアントに返すことができる。
+
+	参照（https://qiita.com/yumiyon/items/5cd2c6b4c696355926dc）	
+
+
+## S3
+
+	S3を作成　参照（https://qiita.com/miriwo/items/41e488b79fb58fa7c952）
+
+
+	
+	本番環境(production)の保存先を:localから:amazonに変更
+
+		config.active_storage.service = :amazon
+
+
+
+	開発環境(development)でAmazon S3の動作を確認したい場合はこちらの方も変更
+
+		config.active_storage.service = :amazon
+
+	
+	config/storage.yml の以下の部分をコメント解除する
+
+		amazon:
+  		service: S3
+  		access_key_id: <%= Rails.application.credentials.dig(:aws, :access_key_id) %>
+  		secret_access_key: <%= Rails.application.credentials.dig(:aws, :secret_access_key) %>
+  		(以下の２行を変更)
+  		region: ap-northeast-1 #東京の場合
+  		bucket: my-rails-app-bucket #自分で作成したS3のバケットの名前
+
+
+
 
 
 # その他
