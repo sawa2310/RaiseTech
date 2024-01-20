@@ -409,7 +409,9 @@
   		region: ap-northeast-1 #東京の場合
   		bucket: my-rails-app-bucket #自分で作成したS3のバケットの名前
 
+## 構成図
 
+    draw.ioにて作成
 
 
 
