@@ -35,5 +35,5 @@
 
 # 4. 構成図を作成
 
-![構成図](img/img-lecture05/第5回課題.png)
+![構成図](img/img-lecture05/第5回課題-2.png)
 
