@@ -10,7 +10,7 @@
 
 # 1. CloudTrail
 
-![CLoudTrail](img/img-lecture06/L-06-CloudTrail 2024-01-24 160623.png)
+![CLoudTrail](img/img-lecture06/L-06-CloudTrail.png)
 
 * イベント名：ConsoleLogin
 * ユーザー名：test-IAM1
@@ -35,7 +35,7 @@
 
 見積りを取得するには、以下のリンクを使用する必要がある。このリンクの有効期間は 1 年間。
 
-![見積 2024/01/26](https://calculator.aws/#/estimate?id=876729dffa7c17e219c5655d668950b93b7f2ed8)
+[見積 2024/01/26](https://calculator.aws/#/estimate?id=876729dffa7c17e219c5655d668950b93b7f2ed8)
 
 リンクに有効期限があるためスクリーンショットも掲載
 
