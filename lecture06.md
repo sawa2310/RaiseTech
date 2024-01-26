@@ -19,6 +19,12 @@
 
 # 2. CloudWatch
 
+### CloudWatchの設定
+
+![ALB-detail](img/img-lecture06/ALB-detail.png)
+
+![アクション.png](img/img-lecture06/アクション.png)
+
 ### 異常時
 
 ![ALB異常時](img/img-lecture06/ALB異常時.png)
