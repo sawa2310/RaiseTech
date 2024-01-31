@@ -420,3 +420,22 @@
 	railsのログの削除
 		rake log:clear
 
+## オンプレミス
+
+	オンプレミスとは、システムの稼働やインフラの構築に必要となるサーバーやネットワーク機器、あるいはソフトウェアなどを自社で保有し運用するシステムの利用形態
+
+## ルートディレクトリとホームディレクトリ
+
+	ルートディレクトリは階層構造の一番上にあるディレクトリシステムのこと、サブディレクトリはメインとなるディレクトリの中にあるディレクトリ、カレントディレクトリは自分が今表示させているディレクトリ、ホームディレクトリは、OSにログインした直後に表示されるディレクトリ、ディレクトリ名は、ディレクトリに付いている名前のこと
+
+
+## セキュリティ
+
+	* SSL通信
+		→SSL（Secure Socket Layer）/ TLS (Transport Layer Security)とは、インターネット上でデータを暗号化して送受信する仕組みのひとつ
+	（https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/basic_structure_13.html）
+
+	* Firewall
+		→ファイアウォールは、ネットワークの通信において、その通信をさせるかどうかを判断し許可するまたは拒否する仕組み
+	（https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/basic_structure_01.html）
+
