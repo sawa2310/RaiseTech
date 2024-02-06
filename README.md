@@ -432,10 +432,24 @@
 ## セキュリティ
 
 	* SSL通信
-		→SSL（Secure Socket Layer）/ TLS (Transport Layer Security)とは、インターネット上でデータを暗号化して送受信する仕組みのひとつ
+		SSL（Secure Socket Layer）/ TLS (Transport Layer Security)とは、インターネット上でデータを暗号化して送受信する仕組みのひとつ
 	（https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/basic_structure_13.html）
 
 	* Firewall
-		→ファイアウォールは、ネットワークの通信において、その通信をさせるかどうかを判断し許可するまたは拒否する仕組み
+		ファイアウォールは、ネットワークの通信において、その通信をさせるかどうかを判断し許可するまたは拒否する仕組み
 	（https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/basic/basic_structure_01.html）
 
+
+## CloudFormation
+
+	* AWS CloudFormation
+		コードの通りにAWS環境を構築するサービス。テンプレートファイルを読み込ませるだけで、あとは自動で環境を構築するAWSの機能。
+
+	* テンプレートファイル
+		AWSの環境（VPC、EC2等）の情報を記述したテキストファイル。
+		記述形式はJSON形式、またはYAML形式。
+
+
+	* Former2
+		Former2 は、AWS アカウント内の既存のリソースから Infrastructure-as-Code 出力を生成できるようにする Web サービス。
+		Former2 を使用すると、ユーザは既存の AWS 環境から CloudFormation や Terraform、Troposphere などのテンプレートを作成し、AWS インフラ構築の自動化に役立つ。（今回の課題では未使用）
