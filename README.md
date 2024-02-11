@@ -453,3 +453,8 @@
 	* Former2
 		Former2 は、AWS アカウント内の既存のリソースから Infrastructure-as-Code 出力を生成できるようにする Web サービス。
 		Former2 を使用すると、ユーザは既存の AWS 環境から CloudFormation や Terraform、Troposphere などのテンプレートを作成し、AWS インフラ構築の自動化に役立つ。（今回の課題では未使用）
+
+## github
+
+	* githubでSSH keys登録したときに、そのSSH keysを使うユーザーは「git」というユーザー。
+
