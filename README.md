@@ -458,3 +458,8 @@
 
 	* githubでSSH keys登録したときに、そのSSH keysを使うユーザーは「git」というユーザー。
 
+## cron
+
+	* (https://qiita.com/shota0616/items/af336cda4253242da3ee)
+
+
