@@ -87,4 +87,3 @@ Outputs:
     Value: !Ref EC2Instance
     Export:
       Name: EC2InstanceID
-      
