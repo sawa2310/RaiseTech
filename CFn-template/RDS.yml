@@ -19,12 +19,12 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: RDS SG
-      VpcId: !ImportValue VPC
+      VpcId: !ImportValue VPC-ID
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 3306
           ToPort: 3306
-          SourceSecurityGroupId: !ImportValue EC2SecurityGroup
+          SourceSecurityGroupId: !ImportValue EC2SecurityGroup-ID
       GroupName: !Sub ${AWS::StackName}-sg
       Tags:
         - Key: Name
@@ -38,8 +38,8 @@ Resources:
       DBSubnetGroupDescription: RDS subnetgroup
       DBSubnetGroupName: !Sub ${AWS::StackName}-subnetgroup
       SubnetIds: 
-        - !ImportValue PrivateSubnetAID
-        - !ImportValue PrivateSubnetCID
+        - !ImportValue PrivateSubnet-A-ID
+        - !ImportValue PrivateSubnet-C-ID
       Tags: 
         - Key: Name
           Value: !Sub ${AWS::StackName}-subnetgroup

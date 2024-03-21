@@ -216,12 +216,7 @@ Outputs:
   VPC:
     Value: !Ref VPC
     Export:
-      Name: VPC
-
-  VPCCIDR:
-    Value: !Ref VPCCIDR
-    Export:
-      Name: VPCCIDR
+      Name: VPC-ID
 
 
 # Subnet
@@ -229,57 +224,20 @@ Outputs:
   PublicSubnetAID:
     Value: !Ref PublicSubnetA
     Export:
-      Name: PublicSubnetAID
-
-  PublicSubnetACIDR:
-    Value: !Ref PublicSubnetACIDR
-    Export:
-      Name: PublicSubnetACIDR
+      Name: PublicSubnet-A-ID
 
   PublicSubnetCID:
     Value: !Ref PublicSubnetC
     Export:
-      Name: PublicSubnetCID
-
-  PublicSubnetCCIDR:
-    Value: !Ref PublicSubnetCCIDR
-    Export:
-      Name: PublicSubnetCCIDR
+      Name: PublicSubnet-C-ID
 
   PrivateSubnetAID:
     Value: !Ref PrivateSubnetA
     Export:
-      Name: PrivateSubnetAID
-
-  PrivateSubnetACIDR:
-    Value: !Ref PrivateSubnetACIDR
-    Export:
-      Name: PrivateSubnetACIDR
+      Name: PrivateSubnet-A-ID
 
   PrivateSubnetCID:
     Value: !Ref PrivateSubnetC
     Export:
-      Name: PrivateSubnetCID
+      Name: PrivateSubnet-C-ID
 
-  PrivateSubnetCCIDR:
-    Value: !Ref PrivateSubnetCCIDR
-    Export:
-      Name: PrivateSubnetCCIDR
-
-# Route
-
-  PublicRouteTableA:
-    Value: !Ref PublicRouteTableA
-    Export:
-      Name: PublicRouteTableA
-
-
-  PrivateRouteTableA:
-    Value: !Ref PrivateRouteTableA
-    Export:
-      Name: PrivateRouteTableA
-
-  PrivateRouteTableC:
-    Value: !Ref PrivateRouteTableC
-    Export:
-      Name: PrivateRouteTableC

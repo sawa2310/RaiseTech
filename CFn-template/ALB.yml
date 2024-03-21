@@ -15,7 +15,7 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: ALB SG
-      VpcId: !ImportValue VPC
+      VpcId: !ImportValue VPC-ID
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 80
@@ -35,8 +35,8 @@ Resources:
       SecurityGroups:    
         - !Ref ALBSG
       Subnets: 
-        - !ImportValue PublicSubnetAID #a
-        - !ImportValue PublicSubnetCID #c
+        - !ImportValue PublicSubnet-A-ID #a
+        - !ImportValue PublicSubnet-C-ID #c
       Type: application
 
 #-----------------------------Listener---------------------------------------------
@@ -67,8 +67,8 @@ Resources:
       Protocol: HTTP
       ProtocolVersion: HTTP1
       Targets: 
-      - Id: !ImportValue EC2InstanceID
+      - Id: !ImportValue EC2Instance-ID
       TargetType: instance
       UnhealthyThresholdCount: 2
-      VpcId: !ImportValue VPC
+      VpcId: !ImportValue VPC-ID
 
