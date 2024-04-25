@@ -38,6 +38,8 @@
     end
 
 # 3306番ポートが接続を受け付けているかの確認。
+    listen_port_db = 3306
+
     describe port(listen_port_db) do
       it { should be_listening }
     end
