@@ -37,16 +37,15 @@
       it { should be_installed.by('gem') }
     end
 
-# 3306番ポートが接続を受け付けているかの確認。
-    listen_port_db = 3306
+# RDSに接続できるかの確認。
+    describe command("mysql -u admin -p$RDS_PASSWORD -h $RDS_HOST -P 3306 -e quit") do
+  its(:exit_status) { should eq(0) }
+end
 
-    describe port(listen_port_db) do
-      it { should be_listening }
-    end
 ```
 テスト全容
-![test](img/img-lecture11/spec-test.png)
+![test](img/img-lecture11/L11-test.png)
 
 ### テスト結果
-![test-success](img/img-lecture11/test-success.png)
+![test-success](img/img-lecture11/L11-test-success.png)
 
