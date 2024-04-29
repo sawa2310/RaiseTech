@@ -37,7 +37,7 @@
       it { should be_installed.by('gem') }
     end
 
-# RDSに接続できるかの確認。
+# 3306番ポートでRDSに接続できるかの確認。
     describe command("mysql -u admin -p$RDS_PASSWORD -h $RDS_HOST -P 3306 -e quit") do
   its(:exit_status) { should eq(0) }
 end
@@ -48,4 +48,9 @@ end
 
 ### テスト結果
 ![test-success](img/img-lecture11/L11-test-success.png)
+
+## 感想
+
+* ServerSpecがどこに対してテストをしているかを正しく把握しなければいけない
+* 環境変数・シェル変数を調べるきっかけになって面白かった
 
