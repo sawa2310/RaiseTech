@@ -54,5 +54,6 @@
 </table>
 
 ### 修正後
+![cfn-lint-success](img/img-lecture12/cfn-lint-success.png)
 ![CircleCi-success](img/img-lecture12/CircleCI-success.png)
 
