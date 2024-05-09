@@ -21,7 +21,6 @@ Resources:
           FromPort: 80
           ToPort: 80
           CidrIp: 0.0.0.0/0
-          GroupName: !Sub ${AWS::StackName}-sg
       Tags:
         - Key: Name
           Value: !Sub ${AWS::StackName}-sg
