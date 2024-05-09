@@ -52,7 +52,9 @@ Resources:
     Properties:
       AllocatedStorage: 20
       AllowMajorVersionUpgrade: true
-      AvailabilityZone: ap-northeast-1c
+      AvailabilityZone: !Select
+        - 1                              #c
+        - Fn::GetAZs: !Ref AWS::Region
       BackupRetentionPeriod: 1
       CopyTagsToSnapshot: true
       DBInstanceClass: db.t3.micro
