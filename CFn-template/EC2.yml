@@ -9,10 +9,6 @@ Description:
 
 Parameters:
 
-  PJPrefix: 
-    Type: String
-    Default: cfn
-
   MyLocalIP:
     Type: String
     Default: 0.0.0.0/0
