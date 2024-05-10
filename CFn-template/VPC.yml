@@ -95,7 +95,9 @@ Resources:
   PublicSubnetA: 
     Type: "AWS::EC2::Subnet"
     Properties: 
-      AvailabilityZone: "ap-northeast-1a"
+      AvailabilityZone: !Select
+        - 0                             
+        - Fn::GetAZs: !Ref AWS::Region  
       CidrBlock: !Ref PublicSubnetACIDR
       VpcId: !Ref VPC 
       Tags: 
@@ -106,7 +108,9 @@ Resources:
   PublicSubnetC: 
     Type: "AWS::EC2::Subnet"
     Properties: 
-      AvailabilityZone: "ap-northeast-1c"
+      AvailabilityZone: !Select
+        - 1
+        - Fn::GetAZs: !Ref AWS::Region  
       CidrBlock: !Ref PublicSubnetCCIDR
       VpcId: !Ref VPC 
       Tags: 
@@ -117,7 +121,9 @@ Resources:
   PrivateSubnetA: 
     Type: "AWS::EC2::Subnet"
     Properties: 
-      AvailabilityZone: "ap-northeast-1a"
+      AvailabilityZone: !Select
+        - 0
+        - Fn::GetAZs: !Ref AWS::Region
       CidrBlock: !Ref PrivateSubnetACIDR
       VpcId: !Ref VPC 
       Tags: 
@@ -128,7 +134,9 @@ Resources:
   PrivateSubnetC: 
     Type: "AWS::EC2::Subnet"
     Properties: 
-      AvailabilityZone: "ap-northeast-1c"
+      AvailabilityZone: !Select
+        - 1
+        - Fn::GetAZs: !Ref AWS::Region
       CidrBlock: !Ref PrivateSubnetCCIDR
       VpcId: !Ref VPC 
       Tags: 
