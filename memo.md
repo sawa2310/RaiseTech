@@ -129,3 +129,4 @@ test 24/06/09 18:04
 test 24/06/09 18:05
 CFn-template README.md img lecture02.md lecture03.md lecture04-2.md lecture04.md lecture05.md lecture06.md lecture07.md lecture10.md lecture11.md lecture12.md memo.md test 24/06/09 18:16
 CFn-template README.md img lecture02.md lecture03.md lecture04-2.md lecture04.md lecture05.md lecture06.md lecture07.md lecture10.md lecture11.md lecture12.md memo.md 24/06/09 18:31
+CFn-template README.md img lecture02.md lecture03.md lecture04-2.md lecture04.md lecture05.md lecture06.md lecture07.md lecture10.md lecture11.md lecture12.md memo.md 24/06/09 18:45
