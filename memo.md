@@ -125,12 +125,4 @@
 \* 24/06/09 23:27
 \* 24/06/09 23:30
 
-
-aaa
-CFn-template README.md img lecture02.md lecture03.md lecture04-2.md lecture04.md lecture05.md lecture06.md lecture07.md lecture10.md lecture11.md lecture12.md memo.md 24/06/09 23:56
-
-CFn-template README.md img lecture02.md lecture03.md lecture04-2.md lecture04.md lecture05.md lecture06.md lecture07.md lecture10.md lecture11.md lecture12.md memo.md 24/06/10 00:00
-⋆ 24/06/10 00:01
-'*' 24/06/10 00:05
-'*' 24/06/10 13:42
-'*' 24/06/10 22:44
+'*' 24/06/10 22:52
