@@ -8,7 +8,7 @@
 
 ## VPC
 
-[VPC.yml](CFn-template/VPC.yml)
+[VPC用テンプレートファイル (VPC.yml)](CFn-template/VPC.yml)
 
 ![VPC-01](img/img-lecture10/CFn-VPC-01.png)
 ![VPC-02](img/img-lecture10/CFn-VPC-02.png)
@@ -16,14 +16,14 @@
 
 ## S3
 
-[S3.yml](CFn-template/S3.yml)
+[S3用テンプレートファイル (S3.yml)](CFn-template/S3.yml)
 
 ![S3-01](img/img-lecture10/CFn-S3-01.png)
 ![S3-02](img/img-lecture10/CFn-S3-02.png)
 
 ## EC2
 
-[EC2.yml](CFn-template/EC2.yml)
+[EC2用テンプレートファイル (EC2.yml)](CFn-template/EC2.yml)
 
 ![EC2-01](img/img-lecture10/CFn-EC2-01.png)
 ![EC2-02](img/img-lecture10/CFn-EC2-02.png)
@@ -31,7 +31,7 @@
 
 ## RDS
 
-[RDS.yml](CFn-template/RDS.yml)
+[RDS用テンプレートファイル (RDS.yml)](CFn-template/RDS.yml)
 
 ![RDS-01](img/img-lecture10/CFn-RDS-01.png)
 ![RDS-02](img/img-lecture10/CFn-RDS-02.png)
@@ -39,7 +39,7 @@
 
 ## ALB
 
-[ALB.yml](CFn-template/ALB.yml)
+[ALB用テンプレートファイル (ALB.yml)](CFn-template/ALB.yml)
 
 ![ALB-01](img/img-lecture10/CFn-ALB-01.png)
 ![ALB-02](img/img-lecture10/CFn-ALB-02.png)
