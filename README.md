@@ -1,7 +1,13 @@
 # AWSコースの学習記録
-2023年10月17日より、オンラインスクール「[RaiseTech](https://raise-tech.net/courses-lp/aws-full-course)」にてAWSコースの受講を開始。<br>
+2023年10月17日より、オンラインスクール「[RaiseTech](https://raise-tech.net/)」にてAWSコースの受講を開始。<br>
 全16回の講義の内、第12回までの受講が済んでおり、第13回は現在学習中。<br>
 それ以降は今後学習予定。<br>
+
+
+## 2024年7月現在
+- AWS Certified Solutions Architect - Associate 取得済み
+- RaiseTech AWSコース 第13回を学習中
+- Linuc level1 学習中
 
 <br>
 <br>
@@ -41,15 +47,5 @@
 
 <br>
 
-### 【 工夫した点 】
-- 既存の環境とリファレンスページを見比べ、テンプレートに記述するリソースを厳選した
-- MyIPやPasswordをハードコードしないようにした
-- エラーの解消速度向上のために、VSCodeにcfn-lintを導入した
-- 学習に取り組みながら[lecture10](./lecture10.md)に過程をまとめ、どこで躓いたか等の振り返りができるようにした
+### 【 補足 】
 
-<br>
-
-## 2024年7月現在
-- AWS Certified Solutions Architect - Associate 取得済み
-- RaiseTech AWSコース 第13回授業内容を学習
-- Linuc level1学習中
