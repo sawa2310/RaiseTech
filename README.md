@@ -24,8 +24,8 @@
 | 8 | - 第4回・第5回授業内容の実演 | ― |
 | 9 | - 第4回・第5回授業内容の実演 | ― |
 | 10 | - CloudFormation | **[lecture10](./lecture10.md)**<br> - AWS環境のコード化 |
-| 11 | - インフラのコード化を支援するツール<br> - インフラのテストとは<br> - テスト駆動環境<br> - ServerSpec | <br>- ServerSpec のテスト |
-| 12 | - Terraformの解説<br> - DevOps<br> - CI/CDツールとは | <br>- CircleCI のサンプルコンフィグの組み込み |
+| 11 | - インフラのコード化を支援するツール<br> - インフラのテストとは<br> - テスト駆動環境<br> - ServerSpec | **[lecture11](./lecture11.md)**<br>- ServerSpec のテスト |
+| 12 | - Terraformの解説<br> - DevOps<br> - CI/CDツールとは | **[lecture12](./lecture12.md)**<br>- CircleCI のサンプルコンフィグの組み込み |
 | 13 | - 構成管理ツールとは<br> - Ansible<br> - OpsWorks<br> - CircleCIとの併用 | **学習中**<br>- CircleCI のサンプルに ServerSpec や Ansible の処理を追加 |
 | 14 | - 第13回授業内容の実演 | **今後学習予定**<br> - AWS 構成図、自動化処理がわかる図、リポジトリのREADME作成 |
 | 15 | - 第13回授業内容の実演 | **今後学習予定** |
@@ -42,10 +42,9 @@
 
 <br>
 
-第10回講義の課題で、これまでに構築した環境（上図）をCloudFormationでコード化し、自動で環境が構築されることを確認。<br>
+第10回講義の課題で、これまでに構築した環境(上図)をCloudFormationでコード化し、自動で環境が構築されることを確認。<br>
 [第10回課題](/lecture10.md)
 
 <br>
 
 ### 【 補足 】
-
